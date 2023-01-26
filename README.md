@@ -2,6 +2,6 @@
 
 Fitness Planner website by rené ohm and miguel
 
-## Link zur Seite
+## Link to  site
 
 https://jpstroh07.github.io/FitnessPlanner/
