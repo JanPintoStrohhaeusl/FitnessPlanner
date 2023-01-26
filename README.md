@@ -1,6 +1,6 @@
 # FitnessPlanner
 
-Fitness Planner website von rené ohm und miguel
+Fitness Planner website by rené ohm and miguel
 
 ## Link zur Seite
 
