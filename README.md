@@ -1,11 +1,13 @@
-# FitnessPlanner
+# Fitness Planner
 
 Fitness Planner website by rené ohm and miguel
 
-## Link to  site
+### 1. Link to site ([O](https://jpstroh07.github.io/FitnessPlanner/index.html))
 
-https://jpstroh07.github.io/FitnessPlanner/
+### 2. Analysis artefacts ([O](Analysis))
 
-## Link to project board
+### 3. Design artefacts ([O](Design))
 
-https://github.com/users/jpstroh07/projects/1
+### 4. Implementation ([O](Impl))
+
+### 5. Link to project board ([O](https://github.com/users/jpstroh07/projects/1))
