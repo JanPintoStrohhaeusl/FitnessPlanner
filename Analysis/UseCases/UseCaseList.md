@@ -1,23 +1,24 @@
 # Use Cases
 
 List with all Use cases:
-- Plan related
-  - Create plan
-  - Search plan
-  - Save plan
-  - Print plan
-  - Report plan
-- Account related
+
+- Account
+  - Create account
   - Log in
   - Log out
-  - Create account
+- Admin
+  - Delete exercise
+  - Delete plan
+  - Review reported plan
+  - Review suggested exercise
+- Plan
+  - Create plan
+  - Print plan
+  - Report plan
+  - Save plan
+  - Search plan  
 - Workout / Exercise
-  - Create workout
   - Add exercise to workout
+  - Create workout
   - Set options of exercise
   - Suggest exercise
-- Admin
-  - Review suggested exercise
-  - Delete exercise
-  - Review reported plan
-  - Delete plan
