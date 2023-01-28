@@ -36,16 +36,16 @@ All Use Cases that are related to the account
 | Scenario      | 1. Actor opens the account details </br> 2. System offers many actions for the account </br> 3. Actor chooses to log out </br> 4. System asks for confirmation </br> 5. Actor confirms </br> 6. System logs actor out |
 | Result        | Actor has not access to account and cannot use the system |
 | Exceptions    | n/a |
-| Extensions    | 5a. Actor does not confirm </br> 1. System closes dialog </br> 2. Actor still has access their account and can continue using the system |
+| Extensions    | 5a. Actor does not confirm </br> 1. System closes dialog </br> 2. Actor still has access their account and can continue using the system </br> 3. Use Case stops|
 
 ### Table template
 
 |               | _UseCaseName_ |
 |---------------|---------------|
-| Description   |               |
-| Actor         |               |
-| Pre-condition |               |
-| Scenario      |               |
-| Result        |               |
-| Exceptions    |               |
-| Extensions    |               |
+| Description   |  |
+| Actor         |  |
+| Pre-condition |  |
+| Scenario      |  |
+| Result        |  |
+| Exceptions    |  |
+| Extensions    |  |

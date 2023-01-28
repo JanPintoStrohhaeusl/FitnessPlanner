@@ -9,7 +9,6 @@ List with all Use cases:
 - Admin
   - Delete exercise
   - Delete plan
-  - Review reported plan
   - Review suggested exercise
 - Plan
   - Create plan
