@@ -1,6 +1,12 @@
 # Use Cases - Workout / Exercise Related
 
-All Use Cases, that are related to Workouts or Exercises
+All Use Cases, that are related to Workouts or Exercises:
+  - Add Exercise to Workout ([O](#add-exercise-to-workout))
+  - Create Workout ([O](#create-workout))
+  - Search Exercise ([O](#search-exercise))
+  - Search Workout ([O](#search-workout))
+  - Set Options of Exercise ([O](#set-options-of-exercise))
+  - Suggest Exercise ([O](#suggest-exercise))
 
 ## Add Exercise to Workout
 
@@ -8,7 +14,7 @@ All Use Cases, that are related to Workouts or Exercises
 |---------------|---------------------------|
 | Description   | Lets Actor add one ore more Exercises to a Workout |
 | Actor         | User |
-| Pre-condition | Workout must be created |
+| Pre-condition | Workout must be [created](#create-workout) |
 | Scenario      | 1. Actor is in the view of the Workout </br> 2. System offers various details about the Workout and the Option to add an Exercise to the Workout </br> 3. Actor chooses the Option </br> 4. System offers a list with Exercises </br> 5. Actor can [search](#search-exercise) and select the needed Exercise(s), and then confirm them </br> 6. System adds the Exercise(s) to the Workout |
 | Result        | The Exercise(s) are added to the Workout |
 | Exceptions    | n/a |
@@ -18,12 +24,12 @@ All Use Cases, that are related to Workouts or Exercises
 
 |               | _Create Workout_ |
 |---------------|------------------|
-| Description   | Lets Actor create a Workout, which will be used in a Plan |
+| Description   | Lets Actor create a Workout, which can be used in a Plan |
 | Actor         | User |
-| Pre-condition | A Plan is already created and has an empty day available |
-| Scenario      | 1. Actor is in the View of the Plan </br> 2. System offers various details about the Plan and the Option to create a Workout for a day </br> 3. Actor chooses that Option </br> 4. System asks for information (Unique Name, Day, other Notes) about the Workout </br> 5. Actor provides necessary information </br> 6. System adds Workout to Plan |
-| Result        | A new, empty Workout has been added |
-| Exceptions    | 2a. All days are already containing Workouts </br> 1. System does not offer the Option to create a Workout </br> 2. Use Case stops </br> 6a. System cannot add the Workout, because the name of the Workout is already in use in the Plan </br> 1. System asks Actor to provide a unique name for the Workout 2. Return to step 5 |
+| Pre-condition | n/a |
+| Scenario      | 1. Actor opens view of their created Workouts </br> 2. System offers a list with all by the Actor created Workouts and the Option to create a new Workout </br> 3. Actor chooses that Option </br> 4. System asks for information (Unique Name, other Notes) </br> 5. Actor provides information and saves |
+| Result        | A new, empty Workout is created |
+| Exceptions    | 5a. Actor provides a name that has already been used </br> 1. System informs that the name is a duplicate </br> 2. Return to step 5 |
 | Extensions    | n/a |
 
 ## Search Exercise

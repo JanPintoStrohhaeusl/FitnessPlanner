@@ -3,24 +3,26 @@
 This directory contains all Use Cases that are specified for this project. The Use Cases are divided for more clarity.
 
 - ### Account ([O](UseCases_Account.md))
-  - Create account
+  - Create Account
   - Log in
   - Log out
+  - Open created Workouts
+  - Open saved Plans
 - ### Admin ([O](UseCases_Admin.md))
-  - Delete exercise
-  - Delete plan
-  - Review suggested exercise
-  - Review reported plan
+  - Delete Exercise
+  - Delete Plan
+  - Review reported Plan
+  - Review suggested Exercise
 - ### Plan ([O](UseCases_Plan.md))
-  - Create plan
-  - Print plan
-  - Report plan
-  - Save plan
-  - Search plan  
+  - Add Workout to Plan
+  - Create Plan
+  - Report Plan
+  - Save Plan
+  - Search Plan
 - ### Workout / Exercise ([O](UseCases_WE.md))
-  - Add exercise to workout
-  - Create workout
+  - Add Exercise to Workout
+  - Create Workout
   - Search Exercise
   - Search Workout
-  - Set options of exercise
-  - Suggest exercise
+  - Set Options of Exercise
+  - Suggest Exercise
