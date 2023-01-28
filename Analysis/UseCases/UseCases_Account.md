@@ -1,6 +1,6 @@
 # Use Cases - Account related
 
-All Use Cases that are related to the account
+All Use Cases, that are related to the account
 
 ## Create account
 

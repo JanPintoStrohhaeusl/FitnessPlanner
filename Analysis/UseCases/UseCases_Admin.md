@@ -1,6 +1,6 @@
 # Use Cases - Admin related
 
-All Use Cases that are related to an Admin of the System 
+All Use Cases, that are related to an Admin of the System 
 
 ## Delete Exercise
 
@@ -21,10 +21,22 @@ All Use Cases that are related to an Admin of the System
 | Description   | Lets Actor delete a Plan |
 | Actor         | Admin |
 | Pre-condition | Plan needs to be searched by Actor |
-| Scenario      | 1. Actor opens the details of the plan </br> 2. System offers various details of that plan and a button to delete the plan </br> 3. Actor clicks on that button </br> 4. System asks for confirmation </br> 5. Actor confirms |
+| Scenario      | 1. Actor opens the details of the plan </br> 2. System offers various details of that plan and an Option to delete the Plan </br> 3. Actor chooses that Option </br> 4. System asks for confirmation </br> 5. Actor confirms |
 | Result        | Plan has been deleted and cannot be searched |
 | Exceptions    | n/a |
 | Extensions    | n/a |
+
+## Review Reported Plan
+
+|               | _Review Reported Plan_ |
+|---------------|---------------|
+| Description   | Lets Actor review a Plan |
+| Actor         | Admin |
+| Pre-condition | Plan was [reported](UseCases_Plan.md#report-plan) by at least one User |
+| Scenario      | 1. Actor opens the Report </br> 2. System shows the Plan and the Reason why the Plan was reported while also showing Options to delete the Report or delete the Plan </br> 3. Actor chooses to [delete the Plan](#delete-plan) |
+| Result        | Report was reviewed and handled |
+| Exceptions    | n/a |
+| Extensions    | 3a. Actor chooses to delete the Report </br> 1. Report was deleted, while the Plan is untouched </br> 2. Use Case ends |
 
 ## Review Suggested Exercise
 

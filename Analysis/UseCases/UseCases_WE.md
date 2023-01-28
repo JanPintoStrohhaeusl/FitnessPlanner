@@ -1,14 +1,6 @@
 # Use Cases - Workout / Exercise Related
 
-All Use Cases that are related to Workouts or Exercises
-
-- Workout / Exercise
-  - Add exercise to workout
-  - Create workout
-  - Search Exercise 
-  - Search Workout
-  - Set options of exercise
-  - Suggest exercise
+All Use Cases, that are related to Workouts or Exercises
 
 ## Add Exercise to Workout
 

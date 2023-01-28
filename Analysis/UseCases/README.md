@@ -10,6 +10,7 @@ This directory contains all Use Cases that are specified for this project. The U
   - Delete exercise
   - Delete plan
   - Review suggested exercise
+  - Review reported plan
 - ### Plan ([O](UseCases_Plan.md))
   - Create plan
   - Print plan

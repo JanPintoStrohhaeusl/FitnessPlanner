@@ -10,6 +10,7 @@ List with all Use cases:
   - Delete exercise
   - Delete plan
   - Review suggested exercise
+  - Review reported plan
 - Plan
   - Create plan
   - Print plan
