@@ -8,7 +8,7 @@ All Use Cases that are related to an Admin of the System
 |---------------|-------------------|
 | Description   | Lets Actor delete an Exercise |
 | Actor         | Admin |
-| Pre-condition | Exercise needs to be searched by Actor |
+| Pre-condition | Exercise needs to be [searched](UseCases_WE.md#search-exercise) by Actor |
 | Scenario      | 1. Actor opens the details of the exercise </br> 2. System offers various details for that exercise and a button to delete the exercise </br> 3. Actor clicks on that button </br> 4. System asks for confirmation </br> 5. Actor confirms |
 | Result        | Exercise has been deleted and cannot be searched or included in Workouts |
 | Exceptions    | n/a |

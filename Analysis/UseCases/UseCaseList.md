@@ -19,5 +19,7 @@ List with all Use cases:
 - Workout / Exercise
   - Add exercise to workout
   - Create workout
+  - Search Exercise 
+  - Search Workout
   - Set options of exercise
   - Suggest exercise

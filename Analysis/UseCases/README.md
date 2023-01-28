@@ -19,5 +19,7 @@ This directory contains all Use Cases that are specified for this project. The U
 - ### Workout / Exercise ([O](UseCases_WE.md))
   - Add exercise to workout
   - Create workout
+  - Search Exercise
+  - Search Workout
   - Set options of exercise
   - Suggest exercise
